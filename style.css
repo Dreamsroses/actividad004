@@ -48,9 +48,9 @@ section{
 /* Header */
 header{
 	color: white;
-	background-color: silver;
+	background-image: url(./images/bg.jpeg);
 	text-align: center;
-	padding: 100px 0px;
+	padding: 200px 10px;
 }
 
 /* Navegación */
