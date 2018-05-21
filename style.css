@@ -2,13 +2,11 @@
 	margin:0;
 	padding: 0;
 }
-
 body{
 	background-color: white;
 	font-family: "open sans", sans-serif;
 	font-size: 14px;
 }
-
 h1{
 	text-transform: uppercase;
 	font-size: 36px;
@@ -37,12 +35,12 @@ p{
 	margin: 0 auto;
 }
 .container-info{
-	width: 100%;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
+	max-width: 100%;
+	max-height: 150%;
 	font-size: 10px;
-	background-color: #d0d0d0;
+	background-color: #D9E5DD;
+	padding: 50px;
+	margin: 0 auto;
 }
 .container-large{
 	max-width: 960px;
@@ -106,23 +104,17 @@ nav li a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
- }
+}
 
 /* Información */
 
 .container-info p{
-	min-width: 40%;
+	text-align: center;
 	font-size: 10px;
+	margin: 0 auto;
 }
-
 .button button-blue{
 	background-color: blue;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
-	transition: all 0.3s;
-	max-width: 960px;
-	margin: 0 auto;
 }
 
 
